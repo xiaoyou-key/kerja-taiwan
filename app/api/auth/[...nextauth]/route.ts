@@ -1,4 +1,7 @@
+export const dynamic = "force-dynamic"; // <--- TAMBAHKAN INI
+
 import NextAuth from "next-auth"
+// ... kode sisanya biarkan sama ...
 import GoogleProvider from "next-auth/providers/google"
 import { PrismaAdapter } from "@next-auth/prisma-adapter"
 import { PrismaClient } from "@prisma/client"
